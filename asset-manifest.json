@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-videos/static/css/main.d1b05096.chunk.css",
+    "main.js": "/react-videos/static/js/main.fd675f94.chunk.js",
+    "main.js.map": "/react-videos/static/js/main.fd675f94.chunk.js.map",
+    "runtime-main.js": "/react-videos/static/js/runtime-main.fa6908ec.js",
+    "runtime-main.js.map": "/react-videos/static/js/runtime-main.fa6908ec.js.map",
+    "static/js/2.e2f50e90.chunk.js": "/react-videos/static/js/2.e2f50e90.chunk.js",
+    "static/js/2.e2f50e90.chunk.js.map": "/react-videos/static/js/2.e2f50e90.chunk.js.map",
+    "index.html": "/react-videos/index.html",
+    "precache-manifest.bd0b81f8ccc60b9ad92be1f249cb557c.js": "/react-videos/precache-manifest.bd0b81f8ccc60b9ad92be1f249cb557c.js",
+    "service-worker.js": "/react-videos/service-worker.js",
+    "static/css/main.d1b05096.chunk.css.map": "/react-videos/static/css/main.d1b05096.chunk.css.map",
+    "static/js/2.e2f50e90.chunk.js.LICENSE.txt": "/react-videos/static/js/2.e2f50e90.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-videos/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fa6908ec.js",
+    "static/js/2.e2f50e90.chunk.js",
+    "static/css/main.d1b05096.chunk.css",
+    "static/js/main.fd675f94.chunk.js"
+  ]
+}
