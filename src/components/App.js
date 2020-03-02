@@ -29,7 +29,9 @@ class App extends React.Component{
     onSelectedVideo=(video)=>{
         this.setState({selectedVideo: video})
     }
-
+    componentDidMount(){
+        this.onSearchSubmit('buildings')
+    }
 
     render(){
        console.log(this.state.videos)
