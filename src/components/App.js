@@ -4,7 +4,6 @@ import SearchBar from './SearchBar';
 import VideoList from './VideoList.js';
 import VideoDisplay from './VideoDisplay.js';
 
-const KEY = 'AIzaSyBFCzah_fbLs9U0pd9oGeUY4eWr2J4t6CA';
 
 class App extends React.Component{
     state={videos:[],
@@ -13,13 +12,7 @@ class App extends React.Component{
     onSearchSubmit =async (term)=>{
     console.log(term)
     const response =  await youtube.get('/search',{
-            params:{
-                q : term,
-                key: KEY,        
-                part: 'snippet',
-                maxResults: 5,
-                type: "video"
-            }
+            params:{q : term}
         })
         console.log(response.data.items);
         this.setState({videos: response.data.items,
