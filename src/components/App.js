@@ -10,14 +10,14 @@ class App extends React.Component{
             selectedVideo: null};
 
     onSearchSubmit =async (term)=>{
-    console.log(term)
+   // console.log(term)
     const response =  await youtube.get('/search',{
             params:{q : term}
         })
-        console.log(response.data.items);
+       // console.log(response.data.items);
         this.setState({videos: response.data.items,
                         selectedVideo: response.data.items[0]})
-        console.log(this.state.videos)
+       // console.log(this.state.videos)
     } 
     onSelectedVideo=(video)=>{
         this.setState({selectedVideo: video})
@@ -27,7 +27,7 @@ class App extends React.Component{
     }
 
     render(){
-       console.log(this.state.videos)
+       //console.log(this.state.videos)
         return(            
             <div className = "ui container">
                 <SearchBar onSearchSubmit = {this.onSearchSubmit}/>
