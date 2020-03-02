@@ -2,15 +2,10 @@ import React from 'react';
 import './VideoItem.css';
 
 const VideoItem = ({video, onSelectedVideo})=>{
-    
-   const onVideoClick =()=>{
-        console.log(video.snippet.title);
-       onSelectedVideo(video);
-    }
+ 
 
-    return(
-        <div>
-            <div onClick={onVideoClick} className="video-item item">                   
+    return(        
+            <div onClick={()=>{onSelectedVideo(video)}} className="video-item item">                   
                     <img 
                         className="ui image"
                         alt={video.snippet.title}
@@ -21,8 +16,7 @@ const VideoItem = ({video, onSelectedVideo})=>{
                         </h4>
                         {/*<p className="description">{props.video.snippet.description}</p>*/}
                     </div>
-               </div>   
-        </div>
+               </div>         
     );
 };
 
